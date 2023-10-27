@@ -4,6 +4,9 @@
     text-align: left;
 
 }
+    body {
+    margin: 30px;
+}
 }
 .tittle {
     font-size: 30px;
@@ -71,8 +74,8 @@ th {
 }
 .image-box {
 
-    width: 320px;
-    height: 340px;
+    width: 300px;
+    height: 320px;
     display: inline-block;
     color: whitesmoke;
     border: 2px solid  #009a00;
@@ -85,8 +88,8 @@ th {
 }
 
 .image-box2 {
-    width: 320px;
-    height: 340px;
+    width: 300px;
+    height: 320px;
     display: inline-block;
     color: whitesmoke;
     border: 2px solid  #009a00;
@@ -98,8 +101,8 @@ th {
 }
 
 .image-box3 {
-    width: 320px;
-    height: 340px;
+    width: 300px;
+    height: 320px;
     display: inline-block;
     color: whitesmoke;
     border: 2px solid #009a00;
