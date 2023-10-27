@@ -1,0 +1,140 @@
+
+.tittle {
+    font-size: 30px;
+    color: #18bb00;
+    font-weight: bold;
+    text-align: center;
+}
+.tittle-2 {
+    color: #118500;
+    text-align: center;
+}
+.Question {
+    font-size: 18px;
+    font-weight: bold;
+}
+.logo {
+    width: 100px;
+    height: 90px;
+    display: flex;
+    position: absolute;
+    top: 20px;
+
+}
+.text {
+    font-size: 16px;
+    text-align: left;
+
+}
+table {
+    border: 1px solid black;
+    position: relative;
+    left: 30px;
+    top: 32px;
+}
+td {
+    border: 1px solid black;
+}
+th {
+    border: 1px solid black;
+}
+.box {
+    max-width: 500px;
+    height: 400px;
+    background-color: #a7ff99;
+    border-radius: 15px;
+    align-items: center;
+}
+.example {
+    font-size: 24px;
+    font-weight: bolder;
+    color: red;
+    text-align: right;
+}
+.direction {
+    font-size: 20px;
+    color: #093a00;
+    font-weight: bold;
+    text-align: center;
+}
+.image {
+    width: 280px;
+    position: center;
+    padding: 10px;
+    display: block;
+}
+.image-box {
+
+    width: 320px;
+    height: 340px;
+    display: inline-block;
+    color: whitesmoke;
+    border: 2px solid  #009a00;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px greenyellow;
+    margin: 20px;
+    justify-items: center;
+
+
+}
+
+.image-box2 {
+    width: 320px;
+    height: 340px;
+    display: inline-block;
+    color: whitesmoke;
+    border: 2px solid  #009a00;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px greenyellow;
+    margin: 20px;
+    justify-items: center;
+
+}
+
+.image-box3 {
+    width: 320px;
+    height: 340px;
+    display: inline-block;
+    color: whitesmoke;
+    border: 2px solid #009a00;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px greenyellow;
+    margin: 20px;
+    justify-items: center;
+
+}
+.container {
+    width: 500px;
+    height: 400px;
+    display: inline-block;
+    color: whitesmoke;
+    border: 2px solid #009a00;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px #2c7c00;
+    margin: 20px;
+    justify-items: center;
+    justify-content: center;
+}
+.footer {
+    width: 110%;
+    height: 100px;
+    background-color: black;
+    padding: 3px;
+}
+.textfooter {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    text-shadow: 1px 1px 4px white;
+    font-family: Arial;
+
+}
+.danimation {
+    position: relative;
+    bottom: 120px;
+    float: right;
+
+}
+.img-1 {
+
+}
