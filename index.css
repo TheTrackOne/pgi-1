@@ -1,4 +1,10 @@
+@media only screen and (max-width: 768px){
+    .text {
+    font-size: 18px;
+    text-align: left;
 
+}
+}
 .tittle {
     font-size: 30px;
     color: #18bb00;
