@@ -23,6 +23,12 @@
     z-index: 1000;
     top: 0;
 }
+@media (max-width: 768px) {
+    #navbar {
+        width: 100%;
+    }
+
+}
 .navbar-container {
     display: flex;
     justify-content: space-between;
