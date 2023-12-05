@@ -122,4 +122,9 @@ body {
     .contenido-principal > * {
         width: 100%;
     }
+    .gallery {
+        width: 95%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
