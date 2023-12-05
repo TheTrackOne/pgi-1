@@ -13,6 +13,7 @@ body {
     margin-top: 100px;
     display: flex;
     align-items: center;
+    width: 100%;
 }
 .contenedor {
     max-width: 1200px;
