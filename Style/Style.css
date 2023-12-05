@@ -20,7 +20,12 @@ body {
     height: 100%;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
 }
+@media (max-width: 768px) {
+    .big-slider {
+        width: 99%;
+    }
 
+}
 .test {
     width: 100%;
     height: 200px;
@@ -569,7 +574,7 @@ body {
 /* Обновен стил за секцията с коментари */
 
 .comments-section {
-    max-width: 800px;
+    max-width: 80%;
     margin: 20px auto;
     background-color: #fff;
     border-radius: 15px;
