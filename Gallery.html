@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Style/Gallery.css">
+  <link rel="stylesheet" href="Style/Navbar.css">
+  <link rel="stylesheet" href="Style/Footer.css">
+  <title>Галерия</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<header id="navbar">
+  <nav class="navbar-container container">
+    <a href="/" class="home-link">
+      <div class="navbar-logo"></div>
+      EPUM
+    </a>
+    <button type="button" id="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu" aria-expanded="false">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <div id="navbar-menu" aria-labelledby="navbar-toggle">
+      <ul class="navbar-links">
+        <li class="navbar-item"><a class="navbar-link" href="Home.html">Начало</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="/blog">Цел</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="/careers">Галерия</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="/contact">За нас</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<script>
+  window.addEventListener('load', function(){
+    new Glider(document.querySelector('.carousel__lista'), {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots: '.carousel__indicadores',
+      arrows: {
+        prev: '.carousel__anterior',
+        next: '.carousel__siguiente'
+      },
+      responsive: [
+        {
+          // screens greater than >= 775px
+          breakpoint: 450,
+          settings: {
+            // Set to `auto` and provide item width to adjust to viewport
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },{
+          // screens greater than >= 1024px
+          breakpoint: 800,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 4
+          }
+        }
+      ]
+    });
+  });
+</script>
+<section class="gallery">
+<div class="contenedor">
+  <main class="contenido-principal">
+    <img src="Photo/statiq-1.jpg" alt="Dome of the German Bundestag" class="contenido-principal__imagen">
+    <div class="contenido-principal__contenedor">
+      <h1 class="contenido-principal__titulo">Замърсяването</h1>
+      <p class="contenido-principal__resumen">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a commodo orci. Nulla ipsum ante, auctor a odio id, bibendum accumsan mauris.
+      </p>
+      <p class="contenido-principal__resumen">
+        Fusce malesuada mollis ante, at elementum mi maximus nec. Praesent volutpat, tortor sed condimentum sagittis, mi diam fringilla nibh.
+      </p>
+    </div>
+  </main>
+
+  <div class="carousel">
+    <div class="carousel__contenedor">
+      <button aria-label="Anterior" class="carousel__anterior">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+
+      <div class="carousel__lista">
+        <div class="carousel__elemento">
+          <img src="Photo/statiq-2.jpg" alt="Rock and Roll Hall of Fame">
+          <p>Градоустройството в бъдеще</p>
+        </div>
+        <div class="carousel__elemento">
+          <img src="Photo/statiq-3.jpg" alt="Constitution Square - Tower I">
+          <p>Цели на екологията</p>
+        </div>
+        <div class="carousel__elemento">
+          <img src="Photo/statiq-4.jpg" alt="Empire State Building">
+          <p>Рециклиране в бъдеще</p>
+        </div>
+        <div class="carousel__elemento">
+          <img src="Photo/card-1.jpg" alt="Harmony Tower">
+          <p>EPUM</p>
+        </div>
+
+        <div class="carousel__elemento">
+          <img src="Photo/card-2.jpg" alt="Empire State Building">
+          <p>EPUM</p>
+        </div>
+        <div class="carousel__elemento">
+          <img src="Photo/card-3.jpg" alt="Harmony Tower">
+          <p>EPUM</p>
+        </div>
+        <div class="carousel__elemento">
+          <img src="Photo/Gallery-1.png" alt="Empire State Building">
+          <p>Света през 3000 година ако не спрем със замърсяването</p>
+        </div>
+        <div class="carousel__elemento">
+          <img src="Photo/Gallery-2.png" alt="Harmony Tower">
+          <p>Света през 3000 година ако не спрем със замърсяването</p>
+        </div>
+      </div>
+
+      <button aria-label="Siguiente" class="carousel__siguiente">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+
+    <div role="tablist" class="carousel__indicadores"></div>
+  </div>
+</div>
+</section>
+<!--FONT AWESOME-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+<footer>
+  <div class="footer">
+    <div class="row">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-youtube"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+    </div>
+
+    <div class="row">
+      <ul>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">Our Services</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+        <li><a href="#">Career</a></li>
+      </ul>
+    </div>
+
+    <div class="row">
+      Copyright © 2023 All rights reserved || Designed By: Kadir
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</body>
+</html>

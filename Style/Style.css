@@ -5,10 +5,15 @@
 
 body {
     height: 100vh;
-    overflow-y: scroll;
+   overflow-y: scroll;
     overflow-x: hidden;
 }
+@media (max-width: 768px) {
+    body {
+        overflow: scroll;
+    }
 
+}
 .big-slider {
     position: relative;
     width: 100%;
