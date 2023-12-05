@@ -2,12 +2,123 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/About%20us.css">
+    <link rel="stylesheet" href="Style/Navbar.css">
+    <link rel="stylesheet" href="Style/Footer.css">
+    <title>About Us</title>
+    <meta name="description" content="This is a site for a chemistry club called EPUM (Ecology and Reuse of Materials) headed by Duska Stankovska at PGI Ivan Iliev - Blagoevgrad. The site is for educational purposes, developed and maintained by Kadir Yazadzhi.">
+    <meta name="keywords" content="EPUM">
+    <meta name="author" content="Kadir Yazadzhi">
 </head>
+
 <body>
+<header id="navbar">
+    <nav class="navbar-container container">
+        <a href="/" class="home-link">
+            <div class="navbar-logo"></div>
+            EPUM
+        </a>
+        <button type="button" id="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu" aria-expanded="false">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div id="navbar-menu" aria-labelledby="navbar-toggle">
+            <ul class="navbar-links">
+                <li class="navbar-item"><a class="navbar-link" href="Home.html">Начало</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="/blog">Цел</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="Gallery.html">Галерия</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="Contact.html">Контаки</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="About%20us.html">За нас</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<script>
+    function changeImage(image) {
+        document.getElementById('about-image').src = image;
+    }
+
+    function scrollToTop() {
+        const scrollDuration = 1000;
+        const scrollStep = -window.scrollY / (scrollDuration / 15);
+        const scrollInterval = setInterval(() => {
+            if (window.scrollY !== 0) {
+                window.scrollBy(0, scrollStep);
+            } else {
+                clearInterval(scrollInterval);
+            }
+        }, 15);
+    }
+
+
+
+</script>
+<div class="about-us-container">
+    <div class="image-container">
+        <img id="about-image" src="Photo/About-Us-1.jpg" alt="About Us Image">
+        <div class="image-buttons">
+            <button onclick="changeImage('Photo/About-Us-2.jpg')"></button>
+            <button onclick="changeImage('Photo/About-Us-3.jpg')"></button>
+            <button onclick="changeImage('Photo/About-Us-4.jpg')"></button>
+        </div>
+    </div>
+    <div class="text-container">
+        <h1>Добре дошли в нашия клуб</h1>
+        <p>Ние сме група ентусиасти, обединени от общата ни страст към екологията и опазването на природата. Създаваме заедно по-зелено бъдеще и насърчаваме екологичните инициативи в нашата общност.</p>
+        <p>Присъединете се към нас и бъдете част от движението за опазване на природата!</p>
+        <div class="additional-info">
+            <p><strong>Нашите цели:</strong> Опазване на природата, образование и насърчаване на екологични инициативи.</p>
+            <p><strong>Контакти:</strong> Имейл: info@eco-club.com, Телефон: +359 123 456 789</p>
+            <p><strong>Адрес:</strong> ул. Примерна 42, Странджа, България</p>
+        </div>
+        <div class="social-links">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
+        <button class="start-button" onclick="scrollToTop()">Начало</button>
+    </div>
+</div>
+
+
 <div class="map-responsive">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2964.8951243077468!2d23.09404517551159!3d42.00252627122838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14aa58b26d3d2289%3A0xf6ce5a99f95ebdef!2z0J_RgNC-0YTQtdGB0LjQvtC90LDQu9C90LAg0LPQuNC80L3QsNC30LjRjyDQv9C-INC40LrQvtC90L7QvNC40LrQsCDigJ7QmNCy0LDQvSDQmNC70LjQtdCy4oCc!5e0!3m2!1sbg!2sbg!4v1698179225461!5m2!1sbg!2sbg" ></iframe>
 </div>
+
+
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+
+            <div class="row">
+                <ul>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Career</a></li>
+                </ul>
+            </div>
+
+            <div class="row">
+                Copyright © 2023 All rights reserved || Designed By: Kadir
+            </div>
+        </div>
+    </footer>
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </body>

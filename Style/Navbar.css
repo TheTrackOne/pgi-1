@@ -12,6 +12,7 @@
     margin-left: auto;
     margin-right: auto;
 }
+
 #navbar {
     --navbar-height: 64px;
     position: fixed;
@@ -30,6 +31,7 @@
     height: 100%;
     align-items: center;
 }
+
 .navbar-item {
     margin: 0.9em;
     width: 100%;
@@ -59,6 +61,7 @@
     color: var(--navbar-text-color-focus);
     background-color: var(--navbar-bg-contrast);
 }
+
 .navbar-logo {
     background-color: var(--navbar-text-color-focus);
     border-radius: 50%;
@@ -66,6 +69,7 @@
     height: 30px;
     margin-right: 0.5em;
 }
+
 #navbar-toggle {
     cursor: pointer;
     border: none;
@@ -77,6 +81,7 @@
     justify-content: center;
     flex-direction: column;
 }
+
 .icon-bar {
     display: block;
     width: 25px;
@@ -84,23 +89,29 @@
     margin: 2px;
     background-color: var(--navbar-text-color);
 }
+
 #navbar-toggle:is(:focus, :hover) .icon-bar {
     background-color: var(--navbar-text-color-focus);
 }
+
 #navbar-toggle[aria-expanded="true"] .icon-bar:is(:first-child, :last-child) {
     position: absolute;
     margin: 0;
     width: 30px;
 }
+
 #navbar-toggle[aria-expanded="true"] .icon-bar:first-child {
     transform: rotate(45deg);
 }
+
 #navbar-toggle[aria-expanded="true"] .icon-bar:nth-child(2) {
     opacity: 0;
 }
+
 #navbar-toggle[aria-expanded="true"] .icon-bar:last-child {
     transform: rotate(-45deg);
 }
+
 #navbar-menu {
     position: fixed;
     top: var(--navbar-height);
@@ -110,11 +121,13 @@
     left: 0;
     right: 0;
 }
+
 #navbar-toggle[aria-expanded="true"] + #navbar-menu {
     background-color: rgba(0, 0, 0, 0.4);
     opacity: 1;
     visibility: visible;
 }
+
 .navbar-links {
     list-style: none;
     position: absolute;
@@ -132,12 +145,13 @@
 #navbar-toggle[aria-expanded="true"] + #navbar-menu .navbar-links {
     padding: 1em;
 }
-@media screen and (min-width: 700px) {
 
+@media screen and (min-width: 700px) {
     #navbar-toggle,
     #navbar-toggle[aria-expanded="true"] {
         display: none;
     }
+
     #navbar-menu,
     #navbar-toggle[aria-expanded="true"] #navbar-menu {
         visibility: visible;
@@ -158,3 +172,4 @@
         height: 100%;
     }
 }
+
