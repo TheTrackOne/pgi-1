@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbe2bcd8-51f3-4dbc-adc0-8bc4de19f66f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/About us.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Style/Contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/Gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Style/About us.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style/About us.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Style/Contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style/Contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Style/Gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style/Gallery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Style/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style/Navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Style/Our Services.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style/Our Services.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Style/Privacy Policy.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style/Privacy Policy.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Style/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Style/Terms &amp; Conditions.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style/Terms &amp; Conditions.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -50,6 +52,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -71,6 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701630431051</updated>
       <workItem from="1701630432418" duration="41598000" />
+      <workItem from="1701805752736" duration="21437000" />
     </task>
     <servers />
   </component>
