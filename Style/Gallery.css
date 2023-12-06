@@ -19,11 +19,17 @@ body {
 }
 
 .contenedor {
-    max-width: ;
+    max-width: 100%;
     width: 90%;
-    margin: 20px;
+    margin: 40px;
+    padding: 20px;
 }
+@media (max-width: 768px) {
+    .contenedor {
+        margin: 26px;
+    }
 
+}
 /* --- --- CONTENEDOR PRINCIPAL --- --- */
 
 .contenido-principal {
