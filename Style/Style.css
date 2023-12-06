@@ -243,7 +243,7 @@ body {
         opacity: 1;
     }
     .item:nth-child(3) {
-        left: 52%;
+        left: 54%;
     }
     .item:nth-child(4) {
         left: calc(40% + 70px);
