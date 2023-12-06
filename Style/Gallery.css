@@ -19,9 +19,9 @@ body {
 }
 
 .contenedor {
-    max-width: 100%;
+    max-width: ;
     width: 90%;
-    margin: auto;
+    margin: 20px;
 }
 
 /* --- --- CONTENEDOR PRINCIPAL --- --- */
@@ -114,9 +114,7 @@ body {
 }
 
 @media screen and (max-width: 800px) {
-    body {
-        padding: 40px 0;
-    }
+
 
     .contenido-principal {
         flex-direction: column;
@@ -129,7 +127,6 @@ body {
 
     .gallery {
         width: 95%;
-        margin-left: auto;
-        margin-right: auto;
+
     }
 }
