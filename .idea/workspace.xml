@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbe2bcd8-51f3-4dbc-adc0-8bc4de19f66f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Style/About us.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style/About us.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Style/Contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style/Contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Style/Gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style/Gallery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Style/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style/Navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Style/Our Services.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style/Our Services.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Style/Privacy Policy.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style/Privacy Policy.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Style/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style/Style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Style/Terms &amp; Conditions.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style/Terms &amp; Conditions.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Initiative.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -39,26 +33,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/HPPavilion/Documents/pgi/Photo",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HPPavilion/Documents/pgi/Photo&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\HPPavilion\Documents\pgi\Photo" />
@@ -79,6 +73,16 @@
       <updated>1701630431051</updated>
       <workItem from="1701630432418" duration="41598000" />
       <workItem from="1701805752736" duration="21437000" />
+      <workItem from="1701888653771" duration="635000" />
+      <workItem from="1701905155804" duration="15000" />
+      <workItem from="1702418519324" duration="108000" />
+      <workItem from="1702418704897" duration="26000" />
+      <workItem from="1702418799839" duration="11000" />
+      <workItem from="1702418852263" duration="13000" />
+      <workItem from="1702418868042" duration="3000" />
+      <workItem from="1702418885858" duration="14000" />
+      <workItem from="1704718959689" duration="23000" />
+      <workItem from="1704720396797" duration="484000" />
     </task>
     <servers />
   </component>

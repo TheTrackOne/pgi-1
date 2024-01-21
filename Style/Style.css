@@ -563,67 +563,120 @@ body {
     }
 }
 
-
-
-/* Обновен стил за секцията с коментари */
-
-.comments-section {
-    max-width: 80%;
-    margin: 20px auto;
-    background-color: #fff;
-    border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: box-shadow 0.3s ease-in-out;
-}
-
-.comments-section:hover {
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
-}
-
-.comment {
-    padding: 20px;
-    border-bottom: 1px solid #ddd;
-}
-
-.comment:last-child {
-    border-bottom: none;
-}
-
-.comment-text {
-    font-size: 1rem;
-    color: #333;
-    line-height: 1.4;
-}
-
-.comment-form {
-    padding: 20px;
-    background-color: #f9f9f9;
-}
-
-.comment-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    resize: none;
-}
-
-.comment-icons {
+.panel-container {
+    background-color: #ffffff;
+    color: #555;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    margin-left: 280px;
+    margin-bottom: 30px;
+    width: 55%;
 }
 
-.comment-icons i {
+/* Стилове за по-малки екрани */
+@media only screen and (max-width: 768px) {
+    .panel-container {
+        width: 80%;
+        padding: 30px;
+       margin-left: 10px;
+    }
+
+    .ratings-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .rating {
+        flex: none;
+        margin: 15px 0;
+    }
+}
+
+/* Останалите стилове остават непроменени */
+.panel-container strong {
+    line-height: 20px;
+    font-size: 34px;
+    margin-bottom: 5px;
+}
+
+.ratings-container {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.rating {
+    flex: 1;
+    width: 100px;
+    height: 100px;
     cursor: pointer;
-    margin-right: 10px;
-    font-size: 1.2rem;
-    color: #333;
-    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    padding: 20px;
+    margin: 15px 20px;
 }
 
-.comment-icons i:hover {
-    color: #e74c3c;
-    transform: scale(1.2);
+.rating i {
+    font-size: 5rem;
+    border-radius: 50%;
+    color: #b4b4b4;
+    transition: 0.3s ease;
+}
+
+.rating:hover i,
+.rating.active i {
+    color: #fddc81;
+    background: radial-gradient(
+            circle,
+            rgb(97, 97, 114) 0%,
+            rgba(97, 97, 114) 55%,
+            rgba(255, 255, 255, 0) 56%
+    );
+    font-size: 5.5rem;
+}
+
+.rating small {
+    display: inline-block;
+    font-weight: 900;
+    margin: 10px 0 0;
+    color: #b4b4b4;
+}
+
+.rating:hover small,
+.rating.active small {
+    color: #555;
+}
+
+.btn {
+    background-color: #fff;
+    font-family: inherit;
+    font-weight: bold;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: 0.2s ease;
+    font-size: 16px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.fa-heart {
+    color: #bb0000;
+    font-size: 140px;
+    margin-bottom: 10px;
 }

@@ -20,7 +20,7 @@
 <header id="navbar">
   <nav class="navbar-container container">
     <a href="/" class="home-link">
-      <div class="navbar-logo"></div>
+      <div class="navbar-logo" ><img class="logo" src="Photo/logo-official-epum.png"></div>
       EPUM
     </a>
     <button type="button" id="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu" aria-expanded="false">
@@ -31,9 +31,9 @@
     <div id="navbar-menu" aria-labelledby="navbar-toggle">
       <ul class="navbar-links">
         <li class="navbar-item"><a class="navbar-link" href="Home.html">Начало</a></li>
-          <li class="navbar-item"><a class="navbar-link" href="#">Инициативи</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="Initiative.html">Инициативи</a></li>
         <li class="navbar-item"><a class="navbar-link" href="Gallery.html">Галерия</a></li>
-        <li class="navbar-item"><a class="navbar-link" href="Contact.html">Контаки</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="Contact.html">Контакти</a></li>
         <li class="navbar-item"><a class="navbar-link" href="About%20us.html">За нас</a></li>
       </ul>
     </div>
@@ -194,37 +194,33 @@
 </div>
 
 <div class="title-container">
-  <h1 class="main-title">Коментари</h1>
+  <h1 class="main-title">Обратна връзка</h1>
   <p class="subtitle">Споделете с нас това което мислите, вашето мнение е важно за нас.</p>
 </div>
 
 
-<div class="comments-section">
-  <div class="comment">
-    <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod neque nec tortor scelerisque, vel hendrerit metus tristique.</p>
-    <div class="comment-icons">
-      <i class="fas fa-thumbs-up"></i>
-      <i class="fas fa-thumbs-down"></i>
-    </div>
-  </div>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 
-  <div class="comment">
-    <p class="comment-text">Suspendisse potenti. Vivamus efficitur diam eu metus cursus, et bibendum nulla blandit. Nulla facilisi.</p>
-    <div class="comment-icons">
-      <i class="fas fa-thumbs-up"></i>
-      <i class="fas fa-thumbs-down"></i>
+<div id="panel" class="panel-container">
+  <strong>How was your experience?</strong>
+  <div class="ratings-container">
+    <div class="rating">
+      <i class="fa-solid fa-face-sad-tear"></i>
+      <small>Unhappy</small>
     </div>
-  </div>
 
-  <div class="comment-form">
-    <textarea placeholder="Напишете вашия коментар"></textarea>
-    <div class="comment-icons">
-      <i class="fas fa-thumbs-up"></i>
-      <i class="fas fa-thumbs-down"></i>
+    <div class="rating active">
+      <i class="fa-solid fa-face-meh"></i>
+      <small>Neutral</small>
+    </div>
+
+    <div class="rating">
+      <i class="fa-solid fa-face-grin-beam"></i>
+      <small>Satisfied</small>
     </div>
   </div>
+  <button class="btn" id="send">Send Review</button>
 </div>
-
 
 <div class="test">
   <!--FONT AWESOME-->
@@ -250,7 +246,7 @@
       </div>
 
       <div class="row">
-       Copyright © 2023 All rights reserved || Designed By: Kadir
+       Copyright © 2023 All rights reserved || Designed By: <a href="https://thetrackone.github.io/thetrack/Profile.html">Kadir Yazadzhi</a>
       </div>
     </div>
   </footer>
