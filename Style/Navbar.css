@@ -11,7 +11,9 @@
     margin-left: auto;
     margin-right: auto;
 }
-
+.logo {
+    width: 100%;
+}
 #navbar {
     --navbar-height: 64px;
     position: fixed;
@@ -22,6 +24,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
     z-index: 1000;
     top: 0;
+
 }
 
 .navbar-container {
@@ -29,6 +32,8 @@
     justify-content: space-between;
     height: 100%;
     align-items: center;
+    padding-left: 40px;
+    margin-right: 40px;
 }
 
 .navbar-item {
