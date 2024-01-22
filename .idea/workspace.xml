@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbe2bcd8-51f3-4dbc-adc0-8bc4de19f66f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Initiative.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fbe2bcd8-51f3-4dbc-adc0-8bc4de19f66f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,9 +13,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -83,6 +80,7 @@
       <workItem from="1702418885858" duration="14000" />
       <workItem from="1704718959689" duration="23000" />
       <workItem from="1704720396797" duration="484000" />
+      <workItem from="1705863387842" duration="8635000" />
     </task>
     <servers />
   </component>
