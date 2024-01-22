@@ -201,3 +201,10 @@ body{
         margin-right: 10px;
     }
 }
+
+.text-error {
+    font-size: 14px;
+    color: red;
+    font-weight: 550;
+    margin: 5px;
+}
