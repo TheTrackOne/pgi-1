@@ -39,7 +39,7 @@ function ValidateField() {
     }
 
     if (message.value.trim() === "") {
-        FieldMessage.innerText = 'Please enter valid name.';
+        FieldMessage.innerText = 'Please enter valid message.';
         message.style.border = '2px solid red';
         message.style.backgroundColor = '#fff5f5';
         message.style.color = '#fd0000';
@@ -94,7 +94,7 @@ function ValidateEmail() {
 
 function ValidateMessage() {
     if (message.value.trim() === "") {
-        FieldMessage.innerText = 'Please enter valid name.';
+        FieldMessage.innerText = 'Please enter valid message.';
         message.style.border = '2px solid red';
         message.style.backgroundColor = '#fff5f5';
         message.style.color = '#fd0000';
